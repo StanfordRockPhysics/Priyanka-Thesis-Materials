@@ -1,0 +1,1 @@
+h = findobj(gcf,'type','axes');for k = 1:length(h)  set(h(k),'fontsize',16);  set(get(h(k),'xlabel'),'fontsize',16);  set(get(h(k),'ylabel'),'fontsize',16);  set(get(h(k),'title'),'fontsize',16);end;

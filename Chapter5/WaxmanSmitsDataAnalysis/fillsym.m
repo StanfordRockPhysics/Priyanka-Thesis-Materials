@@ -1,0 +1,1 @@
+function fillsym% fillsym%% Takes open plot symbols and fills them with the same color% Can be undone with OPENSYMh=findobj(gca,'type','line');for k = 1:length(h),    colr = get(h(k),'color');    set(h(k),'markerfacecolor', colr);    set(h(k),'markeredgecolor', colr);end;

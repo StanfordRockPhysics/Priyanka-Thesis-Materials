@@ -1,0 +1,1 @@
+h = findobj(gcf,'type','axes');for k=1:length(h),   set(findobj(h(k),'type','line'),'markersize',8);end;
